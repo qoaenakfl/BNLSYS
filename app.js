@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-var mysql = require('mysql');
 
 app.listen(3000, function(req, res){
     console.log('Server Start');
